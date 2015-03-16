@@ -11,7 +11,14 @@
   <artifactId>a</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-
+  <scm>
+    <connection>scm:git:git://github.com/tomdz/mvntest.git</connection>
+    <developerConnection>scm:git:git@github.com:tomdz/mvntest.git</developerConnection>
+    <url>http://github.com/tomdz/mvntest/tree/master</url>
+  </scm>
+  <properties>
+    <project.build.targetJdk>1.8</project.build.targetJdk>
+  </properties>
   <organization>
     <name>Facebook, Inc.</name>
     <url>https://www.facebook.com/</url>
